@@ -1,55 +1,25 @@
 {
-  "name": "library_frontend",
-  "version": "1.0.0",
-  "description": "Front End of Library System By Moses and Frank",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js --mode development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mseloma/library_frontend.git"
-  },
-  "author": "Moses Seloma",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mseloma/library_frontend/issues"
-  },
-  "homepage": "https://github.com/mseloma/library_frontend#readme",
+  "name": "library_web",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "webpack": "^4.29.0",
-    "webpack-dev-server": "^3.1.14"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3"
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "babelify": "^8.0.0",
-    "browserify": "^16.2.0",
-    "css-loader": "^2.1.0",
-    "gulp": "^3.9.1",
-    "less": "^3.9.0",
-    "less-loader": "^4.1.0",
-    "style-loader": "^0.23.1",
-    "vinyl-source-stream": "^2.0.0",
-    "webpack-cli": "^3.2.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react",
-      "stage-0"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
-  }
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
